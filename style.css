@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.nav-parents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-parents ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.nav-parents ul li {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 19px;
+}
+
+.nav-parents ul li button {
+    padding: 14px 22px 12px 22px;
+    border-radius: 12px;
+}
+
+.color1 {
+    background-color: #FF6D2C;
+}
+
+.banner-parents {}
+
+.banner-left h1 {
+    max-width: 780px;
+    line-height: 96px;
+    font-size: 82px;
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+.banner-left p {
+    max-width: 555px;
+    line-height: 34px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #58595D;
+    margin-bottom: 48px;
+}
+
+.banner-left .banner-button button {
+    padding: 22px 65px;
+    background-color: #FF6D2C;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.banner-button {
+    display: flex;
+    gap: 40px;
+
+
+}
+
+#banner {
+    height: 756px;
+    padding: 128px 0px;
+    background-color: #E0F8F2;
+    position: relative;
+}
+
+.banner-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+/* =======banner parts ends============ */
+/* ====brands parts start===== */
+#brands {
+    height: 660px;
+    padding: 106px 0px 96px 0px;
+}
+
+#brands h2 {
+    max-width: 650px;
+    font-size: 63px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    line-height: 76px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 58px;
+
+}
+
+.brands-image {
+    display: flex;
+    gap: 64px;
+
+}
+
+/* ==========brands ends============ */
+#mails {
+    background-color: #F3FAFA;
+    height: 645px;
+    padding-top: 106px;
+    padding-bottom: 96px;
+}
+
+#mails h2 {
+    max-width: 600px;
+    font-size: 63px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    line-height: 76px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 58px;
+}
+
+.mail-img {
+    display: flex;
+    gap: 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =======mails ends=============== */
+/* =================postcards starts=========== */
+#postcards {
+    height: 2640px;
+    background-color: #FDF3EA;
+    padding-top: 86px;
+    padding-bottom: 96px;
+
+}
+
+#postcards .headingpost {
+    max-width: 950px;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: -2px;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 145px;
+
+}
+
+.div-1 {
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+.div-1 h3 {
+    max-width: 325px;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    margin-bottom: 31px;
+
+}
+
+.div-1 p {
+    max-width: 485px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 48px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.div-2 {
+    margin-bottom: 143px;
+    text-align: justify;
+
+
+}
+
+.div-2 h2 {
+    max-width: 630px;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    margin-bottom: 31px;
+    font-family: "Inter", sans-serif;
+    margin-left: 644px;
+    margin-right: 0px;
+
+
+}
+
+.div-2 p {
+    max-width: 622px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 48px;
+    font-family: "Inter", sans-serif;
+    margin-left: 644px;
+    margin-right: 0px;
+}
+
+
+.div-2 img{
+    margin-left: 644px;
+    margin-right: 0px;
+}
+
+.div-3 h2{
+     max-width: 293px;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom:25px;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.div-2 p {
+    max-width: 480px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 48px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.div-3 button{
+    display: block;
+    padding: 22px 65px;
+    background-color:#FF6D2C;
+    margin-top:48px ;
+    border-radius: 15px;
+
+}
+
+.card{
+    width:410px ;
+    height:506px;
+    border-radius: 13px;
+    background-color:#FDF3EA;
+    padding: 40px 40px;
+}
+
+.gaps{
+    gap: 30px;
+}
+
+.margin-bottom{
+    margin-bottom:30px ;
+}
+
+.card img{
+    margin-bottom:48px ;
+}
+
+.card h4{
+    margin-bottom:8px ;
+
+}
+
+#cards h2{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:96px 133px 64px 133px ;
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
+    font-size:64px ;
+    font-weight:700 ;
+    letter-spacing:-2px ;
+    line-height:76px ;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+#cards span{
+    color: #009387;
+     font-family: "Covered By Your Grace", cursive;
+     font-weight:400px ;
+     line-height:100px ;
+     font-size: 70px;
+     letter-spacing: -2px;
+}
+/* ========cards ends========== */
+/* =========result start============= */
+.width-1{
+    width: 50%;
+    height: 408px;
+}
+#result{
+    background-color: #E3F8F8;
+    height: 700px;
+
+
+}
+.result-heading{
+    text-align: center;
+    align-items: center;
+    padding:106px 305px 60px 305px ;
+}
+
+
+.accordion-button {
+    
+    
+    width:0px;
+
+    
+    
+}
+
+.accordion {
+  
+    
+    --bs-accordion-bg: none
+    ;
+    color: rgba(46, 47, 53,.5);
+    
+}
+.accordion-button::after {
+    
+    
+    width: 
+    0px;
+    
+    
+}
+/* =====accordion ends====== */
+/* ============footer start============== */
+#footer{
+    padding-top: 95px;
+}
+
+#footer ul{
+     list-style-type:none ;
+}
+#footer ul li {
+    margin-bottom: 27px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
